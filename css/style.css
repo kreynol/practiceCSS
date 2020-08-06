@@ -1,13 +1,11 @@
 #blue {
     background-color: blue;
-    /* width: 100px;
-    height: 100px; */
+    
 }
 
 #red {
     background-color: red;
-    /* width: 100px;
-    height: 100px; */
+    
 }
 
 .size {
@@ -49,5 +47,30 @@
 
 #parent div {
     border: 1px solid;
+}
+
+#window {
+    width: 100px;
+    
+}
+
+#slider {
+    display: flex;
+    overflow: hidden;  
+    
+}
+
+#slider img {
+    transform: translateX(0px);
+    animation: move 3s infinite;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-243px);
+    }
 }
 
