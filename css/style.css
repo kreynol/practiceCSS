@@ -35,3 +35,19 @@
     border-radius: 2px;
 }
 
+#searchIcon img {
+    width: 15px;
+    top: 2px;
+    left: 2px;
+}
+
+#searchIcon img, #searchIcon input {
+    position: absolute;
+}
+
+#searchIcon {
+    position: relative;
+}
+
+
+
