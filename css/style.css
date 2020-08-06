@@ -35,3 +35,19 @@
     border-radius: 2px;
 }
 
+#parent div {
+    background-color: lightseagreen;
+}
+
+#parent {
+    display: flex;
+}
+
+#parent :nth-last-child(2) {
+    margin: 0 auto;
+}
+
+#parent div {
+    border: 1px solid;
+}
+
